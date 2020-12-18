@@ -18,8 +18,10 @@
   <body>
     <div class="mobile-container">
       <header>
-        <input type="text" id="search-term" />
-        <button id="search"><i class="fas fa-search"></i></button>
+        <input type="text" id="search-term" placeholder="Search . . ." />
+        <button id="search">
+          <i class="fas fa-search"></i>
+        </button>
       </header>
       <div class="fav-container">
         <h3>Favorite Meals</h3>
@@ -35,5 +37,14 @@
         <div class="meal-info" id="meal-info"></div>
       </div>
     </div>
+    <script>
+      document
+        .querySelector('#search-term')
+        .addEventListener('keyup', (event) => {
+          if (event.key !== 'Enter') return; // Use `.key` instead.
+          document.querySelector('#search').click(); // Things you want to do.
+          event.preventDefault(); // No need to `return false;`.
+        });
+    </script>
   </body>
 </html>
