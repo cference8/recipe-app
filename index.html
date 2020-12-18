@@ -18,6 +18,9 @@
   <body>
     <div class="mobile-container">
       <header>
+        <button id="feelin-lucky" onclick="location.reload()">
+          Feelin Lucky
+        </button>
         <input type="text" id="search-term" placeholder="Search . . ." />
         <button id="search">
           <i class="fas fa-search"></i>
@@ -41,9 +44,9 @@
       document
         .querySelector('#search-term')
         .addEventListener('keyup', (event) => {
-          if (event.key !== 'Enter') return; // Use `.key` instead.
-          document.querySelector('#search').click(); // Things you want to do.
-          event.preventDefault(); // No need to `return false;`.
+          if (event.key !== 'Enter') return;
+          document.querySelector('#search').click();
+          event.preventDefault();
         });
     </script>
   </body>

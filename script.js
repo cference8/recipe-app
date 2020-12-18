@@ -135,7 +135,9 @@ function addFavMeal(mealData) {
     fetchFavMeals();
   });
 
-  favMeal.addEventListener('click', () => {
+  const img = favMeal.querySelector('img');
+
+  img.addEventListener('click', () => {
     showMealInfo(mealData);
   });
 

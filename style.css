@@ -42,6 +42,10 @@ img {
   max-width: 100%;
 }
 
+#feelin-lucky {
+  margin-right: 20px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -83,15 +87,15 @@ header button {
   cursor: pointer;
   position: relative;
   margin: 5px;
-  width: 75px;
+  width: 80px;
 }
 
 .fav-meals li .clear {
   background-color: transparent;
   border: none;
   position: absolute;
-  top: -0.5rem;
-  right: -0.5rem;
+  top: -1rem;
+  right: -1rem;
   font-size: 1.2rem;
 }
 
