@@ -190,7 +190,7 @@ header button {
   padding: 0 2rem;
   position: relative;
   overflow: auto;
-  max-height: 100vh;
+  max-height: 80vh;
   max-width: 800px;
   width: 100%;
 }
