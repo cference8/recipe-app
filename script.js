@@ -44,7 +44,7 @@ function addMeal(mealData, random = false) {
   meal.classList.add('meal');
 
   meal.innerHTML = `
-   <div class="meal-header">
+   <div class="meal-header" id="meal-header">
        ${random ? `<span class="random">Random Recipe</span>` : ''}
      <img
        src="${mealData.strMealThumb}"
@@ -73,7 +73,9 @@ function addMeal(mealData, random = false) {
     fetchFavMeals();
   });
 
-  meal.addEventListener('click', () => {
+  const mealHeader = meal.querySelector('.meal-header');
+
+  mealHeader.addEventListener('click', () => {
     showMealInfo(mealData);
   });
 
