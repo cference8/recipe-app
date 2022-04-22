@@ -31,7 +31,6 @@ body {
 
 .mobile-container {
   background-color: #eee;
-  width: 400px;
   box-shadow: 0 0 10px 2px #3333331a;
   border-radius: 3px;
   overflow: hidden;
@@ -207,4 +206,18 @@ header button {
 
 .meal-info h1 {
   text-align: center;
+}
+
+@media only screen and (max-width: 399px) {
+  .mobile-container {
+    margin: 5px;
+  }
+
+  #feelin-lucky {
+    font-size: 15px;
+  }
+
+  #search-term {
+    width: 180px;
+  }
 }
