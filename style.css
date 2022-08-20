@@ -42,7 +42,7 @@ img {
 }
 
 #feelin-lucky {
-  border-style: solid;
+  border: 1px solid black;
   margin-right: 20px;
 }
 
