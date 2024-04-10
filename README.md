@@ -30,4 +30,4 @@ Contributions to the Recipes App are welcome! Whether it's feature enhancements,
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](MIT-LICENSE.txt).
