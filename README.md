@@ -1,4 +1,4 @@
-# Recipes App
+# Recipe App
 
 ## Introduction
 
